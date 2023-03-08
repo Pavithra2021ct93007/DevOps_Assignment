@@ -6,10 +6,10 @@ node
     }
     stage('Build') 
     {
-      //  dir ('/Users/bhaarn/Documents/Personal/lecture/BITS/Code/Gradle/') 
-       // dir('ecommerse/ecommerse/android/')
-        steps{
-         script{
+     steps
+     {
+     script
+      {
 
             sh '''cd android/
             ./gradlew clean
