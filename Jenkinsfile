@@ -8,11 +8,14 @@ node
     {
       //  dir ('/Users/bhaarn/Documents/Personal/lecture/BITS/Code/Gradle/') 
        // dir('ecommerse/ecommerse/android/')
-        {
+        steps{
+         script{
+
             sh '''cd android/
-    ./gradlew clean
-    ./gradlew build'''
-        }
+            ./gradlew clean
+            ./gradlew build'''
+          
     }
-    
+    }
+}
 }
