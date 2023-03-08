@@ -6,16 +6,12 @@ node
     }
     stage('Build') 
     {
-     steps
-     {
-     script
-      {
+    
 
             sh '''cd android/
             ./gradlew clean
             ./gradlew build'''
           
-    }
-    }
+   
 }
 }
