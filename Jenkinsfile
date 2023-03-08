@@ -7,7 +7,7 @@ node
     stage('Build') 
     {
       //  dir ('/Users/bhaarn/Documents/Personal/lecture/BITS/Code/Gradle/') 
-        dir('${workspace}/ecommerse/ecommerse/android')
+        dir('ecommerse/android')
         {
             sh './gradlew compileDebugKotlin'
         }
