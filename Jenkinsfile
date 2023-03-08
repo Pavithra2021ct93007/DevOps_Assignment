@@ -8,7 +8,7 @@ node
     {
         dir('ecommerse/ecommerse/')
            {
-            sh '''cd android/
+            sh '''cd android/build.gradle
             ./gradlew clean
             ./gradlew build'''
           }
