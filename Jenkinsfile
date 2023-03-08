@@ -7,9 +7,11 @@ node
     stage('Build') 
     {
       //  dir ('/Users/bhaarn/Documents/Personal/lecture/BITS/Code/Gradle/') 
-        dir('ecommerse/ecommerse/android/')
+       // dir('ecommerse/ecommerse/android/')
         {
-            sh 'gradlew build --info'
+            sh 'cd android/
+    ./gradlew clean
+    ./gradlew build'
         }
     }
     
