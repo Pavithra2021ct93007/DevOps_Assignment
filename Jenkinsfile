@@ -6,7 +6,7 @@ node
     }
     stage('Build') 
     {
-        dir('ecommerse/ecommerse/')
+        dir('C:/GitHub/DevOps_Assignment/ecommerse/ecommerse/android/')
            {
             sh '''cd android/build.gradle
             ./gradlew clean
