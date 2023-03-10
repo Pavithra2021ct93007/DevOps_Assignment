@@ -7,12 +7,12 @@ node
     stage('Build') 
     {
         //dir('C:/ProgramData/Jenkins/.jenkins/workspace/ecommerce/ecommerse/ecommerse/android')
-           {
+           
             sh '''cd android/build.gradle
             ./gradlew assemble
             ./gradlew clean
             ./gradlew build'''
-          }
+          
 
    
 }
