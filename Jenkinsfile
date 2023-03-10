@@ -9,6 +9,7 @@ node
         dir('C:/GitHub/DevOps_Assignment/ecommerse/ecommerse/android/')
            {
             sh '''cd android/build.gradle
+            ./gradlew assemble
             ./gradlew clean
             ./gradlew build'''
           }
