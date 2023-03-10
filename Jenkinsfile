@@ -8,7 +8,7 @@ node
     {
         //dir('C:/ProgramData/Jenkins/.jenkins/workspace/ecommerce/ecommerse/ecommerse/android')
            
-            sh '''cd android/build.gradle
+            sh '''
             ./gradlew assemble
             ./gradlew clean
             ./gradlew build'''
