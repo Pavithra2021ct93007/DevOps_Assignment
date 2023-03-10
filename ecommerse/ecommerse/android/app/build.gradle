@@ -27,7 +27,8 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     compileSdkVersion 31
-
+    namespace 'com.example.ecommerse'
+        
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
