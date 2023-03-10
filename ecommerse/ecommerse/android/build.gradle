@@ -10,7 +10,9 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
-
+android {
+            namespace 'com.example.ecommerse'
+        }
 allprojects {
     repositories {
         google()
